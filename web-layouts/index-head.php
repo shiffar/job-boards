@@ -1,5 +1,5 @@
   <?php $url="https://job-boards.onrender.com/"?>
-  <?php session_start(); ?>
+  <?php ob_start(); session_start(); ?>
   <meta charset="utf-8">
   <title>workman</title>
 
