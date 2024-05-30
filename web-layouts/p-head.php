@@ -1,4 +1,4 @@
-  <?php $url="http://localhost/workman2/"?>
+  <?php $url="https://job-boards.onrender.com/"?>
   <?php 
         session_start(); 
         if (!$_SESSION['jp_id']) {
