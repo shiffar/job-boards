@@ -1,6 +1,8 @@
 <?php
 
-include'../../connection.php';
+header('Content-Type: application/json');
+
+include '../../connection.php';
 
 // Fetch job data from the database
 $query = "SELECT `job_id`, `job_title`, `jp_city` FROM `post_jobs` WHERE 1";
@@ -15,7 +17,7 @@ if (mysqli_num_rows($result) > 0) {
 
     echo json_encode($jobs);
 } else {
-    echo "No jobs found.";
+    echo json_encode(array("message" => "No jobs found."));
 }
 
 // Close the database connection
