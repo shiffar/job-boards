@@ -1,6 +1,6 @@
 <?php
 
-include'http://database.kesug.com/connection.php';
+include'../../connection.php';
 
 // Fetch job data from the database
 $query = "SELECT `job_id`, `job_title`, `jp_city` FROM `post_jobs` WHERE 1";
