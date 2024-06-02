@@ -1,9 +1,9 @@
 <?php
 // Database connection parameters
-$host = "sql101.infinityfree.com";
-$username = "if0_36645368";
-$password = "7jVMpQtrgm";
-$database = "if0_36645368_workman";
+$host = "sql.freedb.tech";
+$username = "freedb_shiffar";
+$password = "dp9aVH?9fvpb4eP";
+$database = "freedb_workman";
 
 // Create a database connection
 $conn = new mysqli($host, $username, $password, $database);
