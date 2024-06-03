@@ -1,5 +1,6 @@
 
 <?php
+ob_start();
 $servername = "sql.freedb.tech";
 $username = "freedb_shiffar";
 $password = "dp9aVH?9fvpb4eP";
