@@ -1,15 +1,14 @@
-
 <?php
-ob_start();
-$servername = "sql.freedb.tech";
-$username = "freedb_shiffar";
-$password = "dp9aVH?9fvpb4eP";
-$dbname = "freedb_workman";
+// Database connection parameters
+$host = "sql101.infinityfree.com";
+$username = "if0_36645368";
+$password = "7jVMpQtrgm";
+$database = "if0_36645368_workman";
 
-// Create connection
-$conn = new mysqli($servername, $username, $password, $dbname);
+// Create a database connection
+$conn = new mysqli($host, $username, $password, $database);
 
-// Check connection
+// Check the connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
