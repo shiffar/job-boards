@@ -112,8 +112,8 @@
       <div class="content-column col-lg-7 col-md-12 col-sm-12">
         <div class="inner-column">
           <div class="title-box wow fadeInUp">
-            <h3>Join us & Explore Thousands <br> of Jobs</h3>
-            <div class="text">Find Jobs, Employment & Career Opportunities</div>
+            <h3>Mohamed</h3>
+            <div class="text">Sifar</div>
           </div>
 
           <!-- Job Search Form -->
