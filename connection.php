@@ -1,10 +1,10 @@
 
 <?php
 //ob_start();
-$servername = "sql.freedb.tech";
-$username = "freedb_shiffar";
-$password = "dp9aVH?9fvpb4eP";
-$dbname = "freedb_workman";
+$servername = "bouhxnnksollonfeklxq-mysql.services.clever-cloud.com";
+$username = "u2rwixdwiv9ho9ao";
+$password = "6WAq1oyRZ9Fhp1yNEUBr";
+$dbname = "bouhxnnksollonfeklxq";
 
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
